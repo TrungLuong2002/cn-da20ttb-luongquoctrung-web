@@ -4,117 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Quản lí thông tin cố vấn học tập </title>
 </head>
 
 <body>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-        }
-
-        #wraper {
-            width: 960px;
-            margin: 0 auto;
-        }
-
-        #menu {
-            display: flex;
-            background-color: #99CC66;
-        }
-
-        #menu ul {
-            flex-basis: 85%;
-            list-style: none;
-            padding-left: 0;
-            display: flex;
-            margin-top: 0;
-            margin-bottom: 0;
-
-        }
-
-        #menu ul li {
-            padding: 8px 20px;
-            border-right: 1px solid white;
-        }
-
-        #menu ul li a {
-            color: black;
-            text-decoration: none;
-            width: 100%;
-        }
-
-        #btn-login {
-            flex-basis: 15%;
-            padding: 8px 20px;
-            color: black;
-            text-decoration: none;
-            background-color: #66CC66;
-            text-align: center;
-        }
-
-        #banner img {
-            max-width: 100%;
-        }
-
-        #menu ul li:hover {
-            background-color: #33CC66;
-        }
-
-        #content {
-            min-height: 100px;
-            border: 1px solid #405f21;
-        }
-
-        .title {
-            margin-top: 1px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            text-align: center;
-            background-color: #99CC66;
-        }
-
-        #info {
-            text-align: center;
-        }
-
-        #form-search {
-            margin-bottom: 8px;
-        }
-
-        #footer {
-            text-align: center;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            background-color: #99CC66;
-        }
-        #tbl-info{
-            width: 50%;
-            margin: 0 auto;
-        }
-        .text-bold{
-            font-weight: bold;
-        }
-    </style>
 
 
     <div id="wraper">
 
         <div id="header">
             <div id="banner">
-                <img src="img/banner.jpg" alt="">
+                <img src="./img/banner.jpg" alt="khong hien thi">
             </div>
             <div id="menu">
                 <ul>
-                    <li><a href="">Phòng đào tạo</a></li>
-                    <li><a href="">Cố vấn học tập</a></li>
+                    <li><a href="https://daotao.tvu.edu.vn/">Phòng đào tạo</a></li>
+                    <li><a href="https://ttsv.tvu.edu.vn/#/home">Cổng thông tin sinh viên</a></li>
                 </ul>
-                <a id="btn-login" href="">Đăng nhập</a>
+                <a id="btn-login" href="login.php">Đăng nhập</a>
             </div>
         </div>
 
