@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#wraper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#menu {
+    display: flex;
+    background-color: #b7d16d;
+}
+
+#menu ul {
+    flex-basis: 85%;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#menu ul li {
+    
+    border-right: 1px solid white;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 8px 20px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+#btn-login {
+    flex-basis: 15%;
+    padding: 8px 20px;
+    color: black;
+    text-decoration: none;
+    /* background-color: #66CC66; */
+    text-align: center;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+#menu ul li:hover {
+    background-color: #33CC66;
+}
+
+#content {
+    min-height: 100px;
+    border: 1px solid #405f21;
+}
+
+.title {
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #b7d16d;
+}
+
+#info {
+    text-align: center;
+}
+
+#form-search {
+    margin-bottom: 8px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #b7d16d;
+}
+#tbl-info{
+    width: 50%;
+    margin: 0 auto;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+
+#class {
+    width: 150px; /* Đặt chiều rộng của dropdown */
+    padding: 8px; /* Đặt padding để tăng độ rộng và độ cao của dropdown */
+    font-size: 14px; /* Đặt kích thước chữ cho dropdown */
+    color: #333; /* Đặt màu chữ */
+    border: 1px solid #ccc; /* Đặt viền */
+    border-radius: 4px; /* Đặt góc cong của dropdown */
+    background-color: #fff; /* Đặt màu nền của dropdown */
+}
+
+/* Tùy chỉnh màu sắc khi hover */
+#class:hover {
+    border-color: #66afe9; /* Màu viền khi hover */
+    background-color: #f8f8f8; /* Màu nền khi hover */
+}
+
+/* Tùy chỉnh màu sắc khi được focus */
+#class:focus {
+    border-color: #4cae4c; /* Màu viền khi focus */
+    background-color: #fff; /* Màu nền khi focus */
+    outline: 0; /* Loại bỏ đường viền màu xanh khi focus (thường xuất hiện ở một số trình duyệt) */
+}
+
+/* Tùy chỉnh màu sắc của các tùy chọn trong dropdown */
+#class option {
+    color: #333; /* Màu chữ của các tùy chọn */
+    background-color: #fff; /* Màu nền của các tùy chọn */
+}
+
+/* Tùy chỉnh màu sắc khi hover trên các tùy chọn trong dropdown */
+#class option:hover {
+    background-color: #f8f8f8; /* Màu nền khi hover trên các tùy chọn */
+}
