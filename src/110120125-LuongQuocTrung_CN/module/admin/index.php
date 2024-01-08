@@ -1,7 +1,6 @@
 <?php
 require "../../db/ketnoi.php";
 require "../../inc/header_admin.php";
-require "../../vendor/autoload.php";
 ?>
 <div id="wp-content">
 
