@@ -10,8 +10,8 @@ Hướng dẫn:
 - Mở phần mềm xampp nhấn vào nút start Apache và start MySQL.
 - Mở trình duyệt gõ localhost/phpmyadmin.
 - Khi đã vào trang phpmyadmin tạo cơ sở dữ liệu mới tên "cvht2" sau đó import dữ liệu vào ( dữ liệu tên "cvht2" trong thư mục src ).
-- Mở trình duyệt gõ localhost.
-- chọn vào thư mục 110120125-LuongQuocTrung_CN.
+- Để chạy dự án: Mở trình duyệt gõ localhost ->chọn vào thư mục 110120125-LuongQuocTrung_CN.
+  
   
 
 
