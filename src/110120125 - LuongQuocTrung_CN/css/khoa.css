@@ -1,0 +1,133 @@
+
+
+#wp-khoa {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wp-khoa h2 {
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #2980b9;
+    
+}
+
+#btn-themKhoa {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#wp-khoa a#btn-themKhoa:hover {
+    background-color: #2980b9;
+}
+
+
+
+#wp-khoa #tb-khoa {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#wp-khoa #tb-khoa th, #wp-khoa #tb-khoa td:not(td.td-tacvu) {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#wp-khoa #tb-khoa th {
+    background-color: #3498db;
+    color: #fff;
+}
+/* ------------------------them----------------- */
+#frmthemkhoa {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#frmthemkhoa label {
+    margin-bottom: 8px;
+    color: #333;
+}
+#frmthemkhoa h3 {
+    text-align: center;
+}
+
+#frmthemkhoa input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#frmthemkhoa input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+}
+
+#frmthemkhoa input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+/* ------------sua------------- */
+#frmsuakhoa {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#frmsuakhoa h3 {
+    text-align: center;
+}
+#frmsuakhoa label {
+    margin-bottom: 8px;
+    color: #333;
+}
+#frmsuakhoa input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#frmsuakhoa input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+}
+
+#frmsuakhoa input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+

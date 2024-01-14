@@ -1,0 +1,96 @@
+
+
+#tb-cvht {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#tb-cvht th, #tb-cvht td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tb-cvht th {
+    background-color: #f2f2f2;
+}
+
+
+
+#btn-them {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#btn-them:hover {
+    background-color: #45a049;
+}
+
+
+/* ----------form updatecvht--------- */
+#wp-frmUpdateCVHT {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wp-frmUpdateCVHT label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+#wp-frmUpdateCVHT h3 {
+    text-align: center;
+}
+
+#wp-frmUpdateCVHT input[type="text"],
+#wp-frmUpdateCVHT select,
+#wp-frmUpdateCVHT textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#wp-frmUpdateCVHT textarea {
+    resize: vertical;
+}
+
+#wp-frmUpdateCVHT select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#wp-frmUpdateCVHT input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+}
+
+#wp-frmUpdateCVHT input[type="submit"]:hover {
+    background-color: #3498db;
+}
+
